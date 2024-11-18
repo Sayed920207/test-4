@@ -1,0 +1,104 @@
+.bg-blue-light {
+  background-color: #e1efff;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1efff;
+  border-radius: 50%;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.img-two {
+  position: absolute;
+  top: 5%;
+  left: -6%;
+  border: 8px solid white;
+  border-right: 0;
+}
+.w-90 {
+  width: 90%;
+}
+.w-15 {
+  width: 15%;
+}
+.w-10 {
+  width: 10%;
+}
+.w-35 {
+  width: 35%;
+}
+.home .container .row .inner-home i {
+  transition: all 0.5s ease-in-out;
+}
+.home .container .row .inner-home:hover i {
+  color: white;
+  background-color: #0d83fd;
+}
+.fs-7 {
+  font-size: 18px;
+}
+.container .title h2 {
+  position: relative;
+}
+.container .title h2::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  top: 110%;
+  left: 48%;
+  background-color: #0d83fd;
+}
+.Features .container .inner h2 {
+  position: relative;
+}
+.Features .container .inner h2::after {
+  content: "";
+  position: absolute;
+  width: 65px;
+  height: 3px;
+  top: 130%;
+  left: 0;
+  background-color: #0d83fd;
+}
+.font-famaily {
+  font-family: "Nunito", serif;
+}
+.services .container .row .inner i {
+  transition: all 0.5s ease-in-out;
+}
+.services .container .row .inner:hover i {
+  background-color: #0d83fd;
+  color: white !important;
+}
+.btn-white {
+  background-color: white;
+}
+.text-primarry {
+  background-color: white !important;
+}
+.top-1 {
+  top: 1%;
+}
+.p-10 {
+  padding: 4rem 2rem;
+}
+.content .container .row .inner .icons i {
+  transition: color 0.5s ease-in-out;
+}
+.content .container .row .inner .icons i:hover {
+  color: #0d83fd;
+}
+.content .container .row .inner .inner ul li a:hover {
+  color: #0d83fd;
+}
